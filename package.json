@@ -1,0 +1,45 @@
+{
+    "name": "rtf",
+    "displayName": "RTF Language Support",
+    "description": "RTF support for Visual Studio Code",
+    "version": "0.1.0",
+    "publisher": "alefragnani",
+	"galleryBanner": {
+		"color": "#4682B4",
+		"theme": "dark"
+	},
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "keywords": [
+        "RTF",
+        "Rich",
+        "RichTextFormat"
+    ],
+	"icon": "images/icon.png",
+    "license": "SEE LICENSE IN LICENSE.md",
+	"homepage": "https://github.com/alefragnani/vscode-language-rtf/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/alefragnani/vscode-language-rtf.git"
+	},
+	"bugs": {
+		"url": "https://github.com/alefragnani/vscode-language-rtf/issues"
+	},
+    "contributes": {
+        "languages": [{
+            "id": "rtf",
+            "aliases": ["RTF", "rtf"],
+            "extensions": [".rtf"],
+            "configuration": "./rtf.configuration.json"
+        }],
+        "grammars": [{
+            "language": "rtf",
+            "scopeName": "rtf.text",
+            "path": "./syntaxes/rtf.tmLanguage"
+        }]
+    }
+}

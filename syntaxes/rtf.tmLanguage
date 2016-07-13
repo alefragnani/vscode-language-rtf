@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>scopeName</key>
+		<string>rtf.text</string>
+
+		<key>fileTypes</key>
+		<array>
+			<string>rtf</string>
+		</array>
+
+		<key>name</key>
+		<string>RTF</string>
+
+		<key>patterns</key>
+		<array>
+			<dict>
+				<key>match</key>
+				<string>(\\rtf\d|\\fonttbl|\\colortbl|\\stylesheet|\\header(?={)|\\tqr|\\pict|\\pard|\\footer(?={)|\\pntext)</string>
+				<key>name</key>
+				<string>storage.type.prototype.rtf</string>
+			</dict>
+
+			<dict>
+				<key>match</key>
+				<string>(\\(ansi(?=\\)|ansicpg(?=\d+))|\\(deff|uc|deftab|red|blue|green|s|li|ri|sb|sa|sl|slmult|snext|cf|wmetafile|picw|pich|picwgoal|pichgoal|highlight|proptype|tx|caps|hyphpar|lang|deflang|pnindent|pnf|trrh|clcfpat|clcbpat|brdrw|brdrcf|cellx|mmathFont|mwrapIndent|viewkind)(?=\d+)|\\tqr|\\pict|\\plain|\\par|\\page|\\(f(?=\d+)|fnil|fcharset(?=\d+)|field|fldrslt|fi(?=\d+)|fs(?=\d+))|\\q\w{1}|\\vertalt|\\propname|\\staticval|\\(keep(?=\\)|keepn)|\\(ul(?=\\)|ulnone)|\\noline|\\pnlvlblt|\\pntxtb|\\nouicompat|\\trowd|\\clbrdrt|\\brdrs|\\intbl|\\cell|\\row|\\clbrdrb|\\((b|i)(?=\\)|(b|i)(?=0)|(b|i)(?=\s)))</string>
+				<key>name</key>
+				<string>meta.tag.section.rtf</string>
+			</dict>
+
+			<dict>
+				<key>match</key>
+				<string>((?<=(\\tx)|(\\f)|(\\b)|(\\i)|(\\green)|(\\red)|(\\blue)|(\\proptype)|(\\fcharset)|(\\deftab)|(\\ansicpg)|(\\uc)|(\\deff)|(\\s)|(\\sl)|(\\li)|(\\fi)|(\\ri)|(\\sb)|(\\sa)|(\\fs)|(\\snext)|(\\picw)|(\\pich)|(\\picwgoal)|(\\pichgoal)|(\\wmetafile)|(\\highlight)|(\\cf)|(\\caps)|(\\hyphpar)|(\\lang)|(\\deflang)|(\\pnindent)|(\\pnf)|(\\slmult)|(\\paperw)|(\\paperh)|(\\margl)|(\\margr)|(\\margt)|(\\margb)|(\\headery)|(\\footery)|(\\fet)|(\\trrh)|(\\clcfpat)|(\\clcbpat)|(\\brdrw)|(\\brdrcf)|(\\cellx)|(\\mmathFont)|(\\mwrapIndent)|(\\viewkind))\d+)</string>
+				<key>name</key>
+				<string>constant.numeric.rtf</string>
+			</dict>
+
+			<dict>
+				<key>match</key>
+				<string>(\\\*\\\w*)</string>
+				<key>name</key>
+				<string>comment.block</string>
+			</dict>
+
+			<dict>
+				<key>match</key>
+				<string>(?!\{)MERGEFIELD\s</string>
+				<key>name</key>
+				<string>error-token</string>
+			</dict>
+
+			<dict>
+			<key>begin</key>
+			<string>"</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.begin.rtf</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>Double quoted strings are an extension and (generally) support C-style escape sequences.</string>
+			<key>end</key>
+			<string>"</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.end.rtf</string>
+				</dict>
+			</dict>
+			<key>name</key>
+			<string>string.quoted.double.rtf</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>match</key>
+					<string>\\.</string>
+					<key>name</key>
+					<string>constant.character.escape.rtf</string>
+				</dict>
+			</array>
+</dict>
+		</array>
+		
+		<key>uuid</key>
+		<string>E81BB6AB-CAC7-4C27-9A79-4137A4693EBD</string>
+	</dict>
+</plist>
