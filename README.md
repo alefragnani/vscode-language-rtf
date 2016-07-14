@@ -13,6 +13,14 @@ The extension is based on a basic set of instructions defined in [RTF Specificat
 
 # Changelog
 
+## Version 0.2.0
+
+* Fixed negative values in supported instructions
+* Added Footnote instructions
+* Added Default Font and Language instructions
+* Added Special Characters instructions
+* Added Alignment instructions
+
 ## Version 0.1.0
 
 * Initial Release

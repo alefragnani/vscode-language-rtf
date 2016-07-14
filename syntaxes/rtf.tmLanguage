@@ -24,14 +24,14 @@
 
 			<dict>
 				<key>match</key>
-				<string>(\\(ansi(?=\\)|ansicpg(?=\d+))|\\(deff|uc|deftab|red|blue|green|s|li|ri|sb|sa|sl|slmult|snext|cf|wmetafile|picw|pich|picwgoal|pichgoal|highlight|proptype|tx|caps|hyphpar|lang|deflang|pnindent|pnf|trrh|clcfpat|clcbpat|brdrw|brdrcf|cellx|mmathFont|mwrapIndent|viewkind)(?=\d+)|\\tqr|\\pict|\\plain|\\par|\\page|\\(f(?=\d+)|fnil|fcharset(?=\d+)|field|fldrslt|fi(?=\d+)|fs(?=\d+))|\\q\w{1}|\\vertalt|\\propname|\\staticval|\\(keep(?=\\)|keepn)|\\(ul(?=\\)|ulnone)|\\noline|\\pnlvlblt|\\pntxtb|\\nouicompat|\\trowd|\\clbrdrt|\\brdrs|\\intbl|\\cell|\\row|\\clbrdrb|\\((b|i)(?=\\)|(b|i)(?=0)|(b|i)(?=\s)))</string>
+				<string>(\\(ansi(?=\\)|ansicpg(?=\d+))|\\(fromhtml|deff|adeff|stshfdbch|stshffloch|stshfhich|stshfbi|deflang|deflangfe|adeflang|uc|deftab|red|blue|green|s|li|ri|sb|sa|sl|slmult|snext|paperw|paperh|margl|margr|margt|margb|headery|footery|fet|cf|wmetafile|picw|pich|picwgoal|pichgoal|highlight|proptype|tx|caps|hyphpar|lang|pnindent|pnf|trrh|clcfpat|clcbpat|brdrw|brdrcf|cellx|mmathFont|mwrapIndent|viewkind|expndtw|expnd|qk)(?=\-?\d+)|\\fromtext|\\tqr|\\pict|\\plain|\\par|\\page|\\(f(?=\d+)|fnil|fcharset(?=\d+)|field|fldrslt|fi(?=\d+)|fs(?=\d+))|\\vertalt|\\propname|\\staticval|\\(keep(?=\\)|keepn)|\\(ul(?=\\)|ulnone)|\\tab|\\emdash|\\endash|\\emspace|\\enspace|\\qmspace|\\bullet|\\lquote|\\rquote|\\ldblquote|\\rdblquote|\\qc|\\qj|\\ql|\\qr|\\qd|\\qt|\\noline|\\pnlvlblt|\\pntxtb|\\nouicompat|\\trowd|\\clbrdrt|\\brdrs|\\intbl|\\cell|\\row|\\clbrdrb|\\ftnbj|\\sftnbj|\\sftnrstcont|\\nocolbal|\\sftnnar|\\saftnnar|\\endnhere|\\sectdefaultcl|\\((b|i)(?=\\)|(b|i)(?=0)|(b|i)(?=\s)))</string>
 				<key>name</key>
 				<string>meta.tag.section.rtf</string>
 			</dict>
 
 			<dict>
 				<key>match</key>
-				<string>((?<=(\\tx)|(\\f)|(\\b)|(\\i)|(\\green)|(\\red)|(\\blue)|(\\proptype)|(\\fcharset)|(\\deftab)|(\\ansicpg)|(\\uc)|(\\deff)|(\\s)|(\\sl)|(\\li)|(\\fi)|(\\ri)|(\\sb)|(\\sa)|(\\fs)|(\\snext)|(\\picw)|(\\pich)|(\\picwgoal)|(\\pichgoal)|(\\wmetafile)|(\\highlight)|(\\cf)|(\\caps)|(\\hyphpar)|(\\lang)|(\\deflang)|(\\pnindent)|(\\pnf)|(\\slmult)|(\\paperw)|(\\paperh)|(\\margl)|(\\margr)|(\\margt)|(\\margb)|(\\headery)|(\\footery)|(\\fet)|(\\trrh)|(\\clcfpat)|(\\clcbpat)|(\\brdrw)|(\\brdrcf)|(\\cellx)|(\\mmathFont)|(\\mwrapIndent)|(\\viewkind))\d+)</string>
+				<string>((?<=(\\tx)|(\\f)|(\\b)|(\\i)|(\\green)|(\\red)|(\\blue)|(\\proptype)|(\\fcharset)|(\\deftab)|(\\ansicpg)|(\\uc)|(\\fromhtml)|(\\deff)|(\\adeff)|(\\stshfdbch)|(\\stshfloch)|(stshfhich)|(\\stshfbi)|(\\deflang)|(\\deflangfe)|(\\adeflang)|(\\s)|(\\sl)|(\\li)|(\\fi)|(\\ri)|(\\sb)|(\\sa)|(\\fs)|(\\snext)|(\\picw)|(\\pich)|(\\picwgoal)|(\\pichgoal)|(\\wmetafile)|(\\highlight)|(\\cf)|(\\caps)|(\\hyphpar)|(\\lang)|(\\pnindent)|(\\pnf)|(\\slmult)|(\\paperw)|(\\paperh)|(\\margl)|(\\margr)|(\\margt)|(\\margb)|(\\headery)|(\\footery)|(\\fet)|(\\trrh)|(\\clcfpat)|(\\clcbpat)|(\\brdrw)|(\\brdrcf)|(\\cellx)|(\\mmathFont)|(\\mwrapIndent)|(\\viewkind)|(\\expndtw)|(\\expnd)|(\\qk))\-?\d+)</string>
 				<key>name</key>
 				<string>constant.numeric.rtf</string>
 			</dict>
