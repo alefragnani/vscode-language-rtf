@@ -2,7 +2,7 @@
     "name": "rtf",
     "displayName": "RTF Language Support",
     "description": "RTF support for Visual Studio Code",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "publisher": "alefragnani",
 	"galleryBanner": {
 		"color": "#4682B4",
