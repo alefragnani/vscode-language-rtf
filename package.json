@@ -1,8 +1,8 @@
 {
     "name": "rtf",
-    "displayName": "RTF Language Support",
+    "displayName": "RTF",
     "description": "RTF support for Visual Studio Code",
-    "version": "1.3.0",
+    "version": "2.0.0",
     "publisher": "alefragnani",
     "galleryBanner": {
         "color": "#4682B4",
@@ -21,8 +21,7 @@
     ],
     "activationEvents": [
         "onLanguage:rtf",
-        "onCommand:rtf.whatsNew",
-        "*"
+        "onCommand:rtf.whatsNew"
     ],
     "main": "./out/src/extension",
     "icon": "images/icon.png",

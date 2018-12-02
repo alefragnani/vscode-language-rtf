@@ -1,23 +1,18 @@
-# RTF Language Support for Visual Studio Code
+<p align="center">
+  <br />
+  <a title="Learn more about RTF" href="http://github.com/alefragnani/vscode-language-rtf"><img src="https://raw.githubusercontent.com/alefragnani/vscode-language-rtf/master/images/vscode-rtf-logo-readme.png" alt="RTF Logo" width="70%" /></a>
+</p>
 
-**RTF Language Support** is an open source extension created for **Visual Studio Code**. While being free and open source, if you find it useful, please consider [supporting it](#support)
+# What's new in RTF 2
 
-It adds support for the **RTF (Rich Text Format)** language, and provides:
+* **Footnote** support
+* **Default font** and **default language** support
+* **Special characters** support
+* **Alignment** support
 
-* Syntax highlighting
-* Bracket matching
+# Support
 
-![syntax](images/vscode-rtf-syntax.png)
-
-## Compatibility
-
-The extension is based on a basic set of instructions defined in [RTF Specification version 1.9.1](https://www.microsoft.com/en-us/download/details.aspx?id=10725). 
-
-## Support
-
-While **RTF Language Support** is free and open source, if you find it useful, please consider supporting it.
-
-I've been working on this on my spare time, and although I enjoy developing it, I would like to be able to give more attention to its growth.
+**RTF** is an open source extension created for **Visual Studio Code**. While being free and open source, if you find it useful, please consider supporting it.
 
 <table align="center" width="60%" border="0">
   <tr>
@@ -33,7 +28,20 @@ I've been working on this on my spare time, and although I enjoy developing it, 
   </tr>
 </table>
 
----
+# RTF for Visual Studio Code
+
+**RTF** is an open source extension created for **Visual Studio Code**. While being free and open source, if you find it useful, please consider supporting it.
+
+It adds support for the **RTF (Rich Text Format)** language, and provides:
+
+* Syntax highlighting
+* Bracket matching
+
+![syntax](images/vscode-rtf-syntax.png)
+
+## Compatibility
+
+The extension is based on a basic set of instructions defined in [RTF Specification version 1.9.1](https://www.microsoft.com/en-us/download/details.aspx?id=10725). 
 
 # License
 
