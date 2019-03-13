@@ -3,7 +3,11 @@ typings/**
 issues/**
 **/*.ts
 **/*.map
+out/**
+node_modules/**
 .gitignore
 tsconfig.json
 npm-debug.log
 docs/**
+package-lock.json
+webpack.config.js
