@@ -5,10 +5,11 @@
 
 # What's new in RTF 2
 
-* **Footnote** support
-* **Default font** and **default language** support
-* **Special characters** support
-* **Alignment** support
+* Adds **Remote Development** support
+* Adds **Footnotes** support
+* Adds **Default font** and **default language** support
+* Adds **Special characters** support
+* Adds **Alignment** support
 
 # Support
 

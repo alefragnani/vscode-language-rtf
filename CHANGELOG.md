@@ -1,3 +1,7 @@
+## [2.1.0] 2019-11-22
+### Added
+* Support **Remote Development**
+
 ## [2.0.2] 2019-05-27
 ### Fixed
 - Security Alert: tar
