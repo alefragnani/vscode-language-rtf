@@ -14,10 +14,11 @@ export class WhatsNewRTFContentProvider implements ContentProvider {
 
     provideChangeLog(): ChangeLogItem[] {
         let changeLog: ChangeLogItem[] = [];
-        changeLog.push({kind: ChangeLogKind.NEW, message: "<b>Footnote</b> support"});
-        changeLog.push({kind: ChangeLogKind.NEW, message: "<b>Default font and language</b> support"});
-        changeLog.push({kind: ChangeLogKind.NEW, message: "<b>Special characters</b> support"});
-        changeLog.push({kind: ChangeLogKind.NEW, message: "<b>Alignment</b> support"});
+        changeLog.push({kind: ChangeLogKind.NEW, message: "Adds <b>Remote Development</b> support"});
+        changeLog.push({kind: ChangeLogKind.NEW, message: "Adds <b>Footnote</b> support"});
+        changeLog.push({kind: ChangeLogKind.NEW, message: "Adds <b>Default font and language</b> support"});
+        changeLog.push({kind: ChangeLogKind.NEW, message: "Adds <b>Special characters</b> support"});
+        changeLog.push({kind: ChangeLogKind.NEW, message: "Adds <b>Alignment</b> support"});
         return changeLog;
     }
 
