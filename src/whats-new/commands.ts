@@ -9,8 +9,8 @@ import { Container } from "../container";
 import { WhatsNewRTFContentProvider } from "./contentProvider";
 
 export function registerWhatsNew() {
-    let provider = new WhatsNewRTFContentProvider();
-    let viewer = new WhatsNewManager(Container.context).registerContentProvider("rtf", provider);
+    const provider = new WhatsNewRTFContentProvider();
+    const viewer = new WhatsNewManager(Container.context).registerContentProvider("rtf", provider);
     viewer.showPageInActivation();
     Container.context.subscriptions.push(commands.registerCommand('rtf.whatsNew', () => viewer.showPage()));
 }

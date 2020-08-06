@@ -13,7 +13,7 @@ export class WhatsNewRTFContentProvider implements ContentProvider {
     }
 
     provideChangeLog(): ChangeLogItem[] {
-        let changeLog: ChangeLogItem[] = [];
+        const changeLog: ChangeLogItem[] = [];
 
         changeLog.push({ kind: ChangeLogKind.VERSION, detail: { releaseNumber: "2.2.0", releaseDate: "August 2020" } });
         changeLog.push({
