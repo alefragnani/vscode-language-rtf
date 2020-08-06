@@ -3,7 +3,7 @@
 *  Licensed under the MIT License. See License.md in the project root for license information.
 *--------------------------------------------------------------------------------------------*/
 
-import { ChangeLogItem, ChangeLogKind, Sponsor, ContentProvider, Header, Image } from "../../vscode-whats-new/src/ContentProvider";
+import { ChangeLogItem, ChangeLogKind, Sponsor, ContentProvider, Header, Image, IssueKind } from "../../vscode-whats-new/src/ContentProvider";
 
 export class WhatsNewRTFContentProvider implements ContentProvider {
 
@@ -14,11 +14,27 @@ export class WhatsNewRTFContentProvider implements ContentProvider {
 
     provideChangeLog(): ChangeLogItem[] {
         let changeLog: ChangeLogItem[] = [];
-        changeLog.push({kind: ChangeLogKind.NEW, message: "Adds <b>Remote Development</b> support"});
-        changeLog.push({kind: ChangeLogKind.NEW, message: "Adds <b>Footnote</b> support"});
-        changeLog.push({kind: ChangeLogKind.NEW, message: "Adds <b>Default font and language</b> support"});
-        changeLog.push({kind: ChangeLogKind.NEW, message: "Adds <b>Special characters</b> support"});
-        changeLog.push({kind: ChangeLogKind.NEW, message: "Adds <b>Alignment</b> support"});
+
+        changeLog.push({ kind: ChangeLogKind.VERSION, detail: { releaseNumber: "2.1.0", releaseDate: "November 2019" } });
+        changeLog.push({
+            kind: ChangeLogKind.NEW,
+            detail: {
+                message: "Support <b>Remote Development</b>",
+                id: 6,
+                kind: IssueKind.Issue
+            }
+        });
+
+        changeLog.push({ kind: ChangeLogKind.VERSION, detail: { releaseNumber: "2.0.2", releaseDate: "May 2019" } });
+        changeLog.push({
+            kind: ChangeLogKind.FIXED,
+            detail: {
+                message: "Security Alert: tar",
+                id: 4,
+                kind: IssueKind.Issue
+            }
+        });
+
         return changeLog;
     }
 
