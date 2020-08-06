@@ -19,6 +19,14 @@ export class WhatsNewRTFContentProvider implements ContentProvider {
         changeLog.push({
             kind: ChangeLogKind.INTERNAL,
             detail: {
+                message: "Migrate from TSLint to ESLint",
+                id: 10,
+                kind: IssueKind.Issue
+            }
+        });
+        changeLog.push({
+            kind: ChangeLogKind.INTERNAL,
+            detail: {
                 message: "Support VS Code package split",
                 id: 7,
                 kind: IssueKind.Issue
