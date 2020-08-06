@@ -15,6 +15,34 @@ export class WhatsNewRTFContentProvider implements ContentProvider {
     provideChangeLog(): ChangeLogItem[] {
         let changeLog: ChangeLogItem[] = [];
 
+        changeLog.push({ kind: ChangeLogKind.VERSION, detail: { releaseNumber: "2.2.0", releaseDate: "August 2020" } });
+        changeLog.push({
+            kind: ChangeLogKind.INTERNAL,
+            detail: {
+                message: "Support VS Code package split",
+                id: 7,
+                kind: IssueKind.Issue
+            }
+        });
+        changeLog.push({
+            kind: ChangeLogKind.FIXED,
+            detail: {
+                message: "Security Alert: elliptic",
+                id: 11,
+                kind: IssueKind.PR,
+                kudos: "dependabot"
+            }
+        });
+        changeLog.push({
+            kind: ChangeLogKind.FIXED,
+            detail: {
+                message: "Security Alert: acorn",
+                id: 8,
+                kind: IssueKind.PR,
+                kudos: "dependabot"
+            }
+        });
+
         changeLog.push({ kind: ChangeLogKind.VERSION, detail: { releaseNumber: "2.1.0", releaseDate: "November 2019" } });
         changeLog.push({
             kind: ChangeLogKind.NEW,

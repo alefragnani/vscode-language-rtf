@@ -1,3 +1,11 @@
+## [2.2.0] 2020-08-06
+### Internal
+- Support VS Code package split (issue [#7](https://github.com/alefragnani/vscode-language-rtf/issues/7))
+
+### Fix
+- Security Alert: elliptic (dependabot [PR #11](https://github.com/alefragnani/vscode-language-pascal/pull/11))
+- Security Alert: acorn (dependabot [PR #8](https://github.com/alefragnani/vscode-language-pascal/pull/8))
+
 ## [2.1.0] 2019-11-22
 ### Added
 * Support **Remote Development**
