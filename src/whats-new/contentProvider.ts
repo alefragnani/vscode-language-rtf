@@ -75,7 +75,7 @@ export class WhatsNewRTFContentProvider implements ContentProvider {
     }
 
     provideSponsors(): Sponsor[] {
-        let sponsors: Sponsor[] = [];
+        const sponsors: Sponsor[] = [];
         return sponsors
     }
    
