@@ -1,3 +1,8 @@
+[![](https://vsmarketplacebadge.apphb.com/version-short/alefragnani.rtf.svg)](https://marketplace.visualstudio.com/items?itemName=alefragnani.rtf)
+[![](https://vsmarketplacebadge.apphb.com/downloads-short/alefragnani.rtf.svg)](https://marketplace.visualstudio.com/items?itemName=alefragnani.rtf)
+[![](https://vsmarketplacebadge.apphb.com/rating-short/alefragnani.rtf.svg)](https://marketplace.visualstudio.com/items?itemName=alefragnani.rtf)
+[![](https://img.shields.io/github/workflow/status/alefragnani/vscode-language-rtf/CI)](https://github.com/alefragnani/vscode-language-rtf/actions?query=workflow%3ACI)
+
 <p align="center">
   <br />
   <a title="Learn more about RTF" href="http://github.com/alefragnani/vscode-language-rtf"><img src="https://raw.githubusercontent.com/alefragnani/vscode-language-rtf/master/images/vscode-rtf-logo-readme.png" alt="RTF Logo" width="70%" /></a>
