@@ -15,6 +15,12 @@
         "ui",
         "workspace"
     ],
+	"capabilities": {
+		"virtualWorkspaces": true,
+		"untrustedWorkspaces": {
+			"supported": true
+		}
+	},
     "categories": [
         "Programming Languages"
     ],
