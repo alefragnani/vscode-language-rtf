@@ -1,9 +1,18 @@
+## [2.3.0] 2021-06-01
+### Added
+- Support **Virtual Workspaces** (issue [#18](https://github.com/alefragnani/vscode-language-rtf/issues/18))
+- Support **Workspace Trust** (issue [#17](https://github.com/alefragnani/vscode-language-rtf/issues/17))
+
+### Internal
+- Security Alert: lodash (dependabot [PR #16](https://github.com/alefragnani/vscode-language-rtf/pull/16))
+- Security Alert: ssri (dependabot [PR #15](https://github.com/alefragnani/vscode-language-rtf/pull/15))
+- Security Alert: y18n (dependabot [PR #14](https://github.com/alefragnani/vscode-language-rtf/pull/14))
+- Security Alert: elliptic (dependabot [PR #13](https://github.com/alefragnani/vscode-language-rtf/pull/13))
+
 ## [2.2.0] 2020-08-06
 ### Internal
 - Migrate from TSLint to ESLint (issue [#10](https://github.com/alefragnani/vscode-language-rtf/issues/10))
 - Support VS Code package split (issue [#7](https://github.com/alefragnani/vscode-language-rtf/issues/7))
-
-### Fix
 - Security Alert: elliptic (dependabot [PR #11](https://github.com/alefragnani/vscode-language-rtf/pull/11))
 - Security Alert: acorn (dependabot [PR #8](https://github.com/alefragnani/vscode-language-rtf/pull/8))
 
@@ -12,7 +21,7 @@
 * Support **Remote Development**
 
 ## [2.0.2] 2019-05-27
-### Fixed
+### Internal
 - Security Alert: tar
 
 ## [2.0.1] 2019-03-13

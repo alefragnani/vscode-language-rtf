@@ -2,7 +2,7 @@
     "name": "rtf",
     "displayName": "RTF",
     "description": "RTF support for Visual Studio Code",
-    "version": "2.2.0",
+    "version": "2.3.0",
     "publisher": "alefragnani",
     "galleryBanner": {
         "color": "#4682B4",
@@ -15,12 +15,12 @@
         "ui",
         "workspace"
     ],
-	"capabilities": {
-		"virtualWorkspaces": true,
-		"untrustedWorkspaces": {
-			"supported": true
-		}
-	},
+    "capabilities": {
+        "virtualWorkspaces": true,
+        "untrustedWorkspaces": {
+            "supported": true
+        }
+    },
     "categories": [
         "Programming Languages"
     ],
