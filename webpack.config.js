@@ -24,11 +24,9 @@ const config = {
     },
     optimization: {
         minimizer: [new TerserPlugin({
-            cache: true,
             parallel: true,
-            sourceMap: true, 
             terserOptions: {
-                ecma: 8,
+                ecma: 2020,
                 keep_classnames: false,
                 mangle: true,
                 module: true
