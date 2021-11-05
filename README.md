@@ -8,7 +8,7 @@
   <a title="Learn more about RTF" href="http://github.com/alefragnani/vscode-language-rtf"><img src="https://raw.githubusercontent.com/alefragnani/vscode-language-rtf/master/images/vscode-rtf-logo-readme.png" alt="RTF Logo" width="70%" /></a>
 </p>
 
-# What's new in RTF 2.3
+# What's new in RTF 2.4
 
 * Adds **Workspace Trust** support
 * Adds **Virtual Workspaces** support

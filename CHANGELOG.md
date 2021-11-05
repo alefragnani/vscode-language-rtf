@@ -1,3 +1,8 @@
+## [2.4.0] - 2021-11-05
+### Internal
+* Add CONTRIBUTING documentation (issue [#21](https://github.com/alefragnani/vscode-language-rtf/issues/21))
+* Update dependencies (issue [#22](https://github.com/alefragnani/vscode-language-rtf/issues/22))
+
 ## [2.3.0] 2021-06-01
 ### Added
 - Support **Virtual Workspaces** (issue [#18](https://github.com/alefragnani/vscode-language-rtf/issues/18))

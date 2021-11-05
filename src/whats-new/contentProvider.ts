@@ -15,6 +15,24 @@ export class WhatsNewRTFContentProvider implements ContentProvider {
     provideChangeLog(): ChangeLogItem[] {
         const changeLog: ChangeLogItem[] = [];
 
+        changeLog.push({ kind: ChangeLogKind.VERSION, detail: { releaseNumber: "2.4.0", releaseDate: "October 2021" } });
+        changeLog.push({
+            kind: ChangeLogKind.INTERNAL,
+            detail: {
+            message: "Add CONTRIBUTING documentation",
+                id: 21,
+                kind: IssueKind.Issue
+            }
+        });
+        changeLog.push({
+            kind: ChangeLogKind.INTERNAL,
+            detail: {
+            message: "Update dependencies",
+                id: 22,
+                kind: IssueKind.Issue
+            }
+        });
+
         changeLog.push({ kind: ChangeLogKind.VERSION, detail: { releaseNumber: "2.3.0", releaseDate: "May 2021" } });
         changeLog.push({
             kind: ChangeLogKind.NEW,
@@ -102,16 +120,6 @@ export class WhatsNewRTFContentProvider implements ContentProvider {
                 id: 8,
                 kind: IssueKind.PR,
                 kudos: "dependabot"
-            }
-        });
-
-        changeLog.push({ kind: ChangeLogKind.VERSION, detail: { releaseNumber: "2.1.0", releaseDate: "November 2019" } });
-        changeLog.push({
-            kind: ChangeLogKind.NEW,
-            detail: {
-                message: "Support <b>Remote Development</b>",
-                id: 6,
-                kind: IssueKind.Issue
             }
         });
 
