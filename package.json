@@ -33,7 +33,8 @@
         "onLanguage:rtf",
         "onCommand:rtf.whatsNew"
     ],
-    "main": "./dist/extension",
+    "main": "./dist/extension-node.js",
+    "browser": "./dist/extension-web.js",
     "icon": "images/icon.png",
     "license": "SEE LICENSE IN LICENSE.md",
     "homepage": "https://github.com/alefragnani/vscode-language-rtf/blob/master/README.md",
@@ -68,7 +69,8 @@
         "commands": [
             {
                 "command": "rtf.whatsNew",
-                "title": "RTF: What's New"
+                "title": "RTF: What's New",
+                "enablement": "!isWeb"
             }
         ]
     },
