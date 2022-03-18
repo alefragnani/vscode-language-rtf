@@ -1,3 +1,7 @@
+## [2.5.0] - 2022-03-17
+### Internal
+* Add Web support (issue [#20](https://github.com/alefragnani/vscode-language-rtf/issues/20))
+
 ## [2.4.0] - 2021-11-05
 ### Internal
 * Add CONTRIBUTING documentation (issue [#21](https://github.com/alefragnani/vscode-language-rtf/issues/21))
