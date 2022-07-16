@@ -1,3 +1,7 @@
+## [2.5.1] - 2022-07-16
+### Internal
+* Add GitHub Sponsors support (issue [#23](https://github.com/alefragnani/vscode-language-rtf/pull/30))
+
 ## [2.5.0] - 2022-03-17
 ### Internal
 * Add Web support (issue [#20](https://github.com/alefragnani/vscode-language-rtf/issues/20))
