@@ -1,15 +1,20 @@
+## [2.6.0] - 2022-10-01
+### Internal
+- Package cleanup (issue [#31](https://github.com/alefragnani/vscode-language-rtf/pull/30))
+- Security Alert: terser (dependabot [PR #32](https://github.com/alefragnani/vscode-language-rtf/pull/32))
+
 ## [2.5.1] - 2022-07-16
 ### Internal
-* Add GitHub Sponsors support (issue [#23](https://github.com/alefragnani/vscode-language-rtf/pull/30))
+- Add GitHub Sponsors support (issue [#31](https://github.com/alefragnani/vscode-language-rtf/pull/30))
 
 ## [2.5.0] - 2022-03-17
 ### Internal
-* Add Web support (issue [#20](https://github.com/alefragnani/vscode-language-rtf/issues/20))
+- Add Web support (issue [#20](https://github.com/alefragnani/vscode-language-rtf/issues/20))
 
 ## [2.4.0] - 2021-11-05
 ### Internal
-* Add CONTRIBUTING documentation (issue [#21](https://github.com/alefragnani/vscode-language-rtf/issues/21))
-* Update dependencies (issue [#22](https://github.com/alefragnani/vscode-language-rtf/issues/22))
+- Add CONTRIBUTING documentation (issue [#21](https://github.com/alefragnani/vscode-language-rtf/issues/21))
+- Update dependencies (issue [#22](https://github.com/alefragnani/vscode-language-rtf/issues/22))
 
 ## [2.3.0] 2021-06-01
 ### Added
