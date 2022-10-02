@@ -1,6 +1,10 @@
+## [2.6.1] - 2022-10-01
+### Fixed
+- Activation issue (issue [#35](https://github.com/alefragnani/vscode-language-rtf/issues/35))
+
 ## [2.6.0] - 2022-10-01
 ### Internal
-- Package cleanup (issue [#31](https://github.com/alefragnani/vscode-language-rtf/pull/30))
+- Package cleanup (issue [#31](https://github.com/alefragnani/vscode-language-rtf/issues/31))
 - Security Alert: terser (dependabot [PR #32](https://github.com/alefragnani/vscode-language-rtf/pull/32))
 
 ## [2.5.1] - 2022-07-16
