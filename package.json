@@ -9,7 +9,7 @@
         "theme": "dark"
     },
     "engines": {
-        "vscode": "^1.61.0"
+        "vscode": "^1.74.0"
     },
     "extensionKind": [
         "ui",
@@ -28,10 +28,6 @@
         "RTF",
         "Rich",
         "RichTextFormat"
-    ],
-    "activationEvents": [
-        "onLanguage:rtf",
-        "onCommand:rtf.whatsNew"
     ],
     "main": "./dist/extension-node.js",
     "browser": "./dist/extension-web.js",
@@ -99,7 +95,7 @@
         "@types/mocha": "^9.0.0",
         "@types/node": "^14.17.27",
         "@types/semver": "^7.3.9",
-        "@types/vscode": "^1.61.0",
+        "@types/vscode": "^1.74.0",
         "@typescript-eslint/eslint-plugin": "^5.1.0",
         "@typescript-eslint/parser": "^5.1.0",
         "@vscode/test-electron": "^1.6.2",
