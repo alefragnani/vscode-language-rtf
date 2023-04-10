@@ -1,3 +1,11 @@
+## [2.7.0] - 2023-04-10
+### Internal
+- Support new **Implicit Activation Events API** (issue [#40](https://github.com/alefragnani/vscode-language-rtf/issues/40))
+- Support **Translation** API (issue [#37](https://github.com/alefragnani/vscode-language-rtf/issues/37))
+- Update badges in README (issue [#45](https://github.com/alefragnani/vscode-language-rtf/issues/45))
+- Security Alert: webpack (dependabot [PR #44](https://github.com/alefragnani/vscode-language-rtf/pull/44))
+- Security Alert: minimatch (dependabot [PR #39](https://github.com/alefragnani/vscode-language-rtf/pull/39))
+
 ## [2.6.1] - 2022-10-01
 ### Fixed
 - Activation issue (issue [#35](https://github.com/alefragnani/vscode-language-rtf/issues/35))
