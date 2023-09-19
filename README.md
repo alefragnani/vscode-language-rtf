@@ -46,6 +46,8 @@ It adds support for the **RTF (Rich Text Format)** language, and provides:
 
 ## Compatibility
 
+XX
+
 The extension is based on a basic set of instructions defined in [RTF Specification version 1.9.1](https://www.microsoft.com/en-us/download/details.aspx?id=10725). 
 
 # License
