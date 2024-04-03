@@ -15,6 +15,41 @@ export class RtfContentProvider implements ContentProvider {
     public provideChangeLog(): ChangeLogItem[] {
         const changeLog: ChangeLogItem[] = [];
 
+        changeLog.push({ kind: ChangeLogKind.VERSION, detail: { releaseNumber: "2.8.0", releaseDate: "March 2024" } });
+        changeLog.push({
+            kind: ChangeLogKind.NEW,
+            detail: {
+                message: "Published to Open VSX",
+                id: 25,
+                kind: IssueKind.Issue
+            }
+        });
+        changeLog.push({
+            kind: ChangeLogKind.CHANGED,
+            detail: {
+                message: "Avoid What's New when using Gitpod",
+                id: 47,
+                kind: IssueKind.Issue
+            }
+        });
+        changeLog.push({
+            kind: ChangeLogKind.CHANGED,
+            detail: {
+                message: "Avoid What's New when installing lower versions",
+                id: 47,
+                kind: IssueKind.Issue
+            }
+        });
+        changeLog.push({
+            kind: ChangeLogKind.INTERNAL,
+            detail: {
+                message: "Security Alert: word-wrap",
+                id: 48,
+                kind: IssueKind.PR,
+                kudos: "dependabot"
+            }
+        });
+
         changeLog.push({ kind: ChangeLogKind.VERSION, detail: { releaseNumber: "2.7.0", releaseDate: "March 2023" } });
         changeLog.push({
             kind: ChangeLogKind.INTERNAL,
@@ -90,24 +125,6 @@ export class RtfContentProvider implements ContentProvider {
             detail: {
             message: "Add Web support",
                 id: 20,
-                kind: IssueKind.Issue
-            }
-        });
-
-        changeLog.push({ kind: ChangeLogKind.VERSION, detail: { releaseNumber: "2.4.0", releaseDate: "October 2021" } });
-        changeLog.push({
-            kind: ChangeLogKind.INTERNAL,
-            detail: {
-            message: "Add CONTRIBUTING documentation",
-                id: 21,
-                kind: IssueKind.Issue
-            }
-        });
-        changeLog.push({
-            kind: ChangeLogKind.INTERNAL,
-            detail: {
-            message: "Update dependencies",
-                id: 22,
                 kind: IssueKind.Issue
             }
         });

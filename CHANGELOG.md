@@ -1,3 +1,14 @@
+## [2.8.0] - 2024-04-03
+### Added
+- Published to Open VSX (issue [#25](https://github.com/alefragnani/vscode-language-rtf/issues/25))
+
+### Changed
+- Avoid What's New when using Gitpod (issue [#47](https://github.com/alefragnani/vscode-language-rtf/issues/47))
+- Avoid What's New when installing lower versions (issue [#47](https://github.com/alefragnani/vscode-language-rtf/issues/47))
+
+### Internal
+- Security Alert: word-wrap (dependabot [PR #48](https://github.com/alefragnani/vscode-language-rtf/pull/48))
+
 ## [2.7.0] - 2023-04-10
 ### Internal
 - Support new **Implicit Activation Events API** (issue [#40](https://github.com/alefragnani/vscode-language-rtf/issues/40))
