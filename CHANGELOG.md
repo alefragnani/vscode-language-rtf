@@ -1,3 +1,8 @@
+## [2.8.1] - 2025-02-03
+### Internal
+- Security Alert: webpack (dependabot [PR #50](https://github.com/alefragnani/vscode-language-rtf/pull/50))
+- Security Alert: braces (dependabot [PR #49](https://github.com/alefragnani/vscode-language-rtf/pull/49))
+
 ## [2.8.0] - 2024-04-03
 ### Added
 - Published to Open VSX (issue [#25](https://github.com/alefragnani/vscode-language-rtf/issues/25))

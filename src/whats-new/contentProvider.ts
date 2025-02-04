@@ -15,6 +15,26 @@ export class RtfContentProvider implements ContentProvider {
     public provideChangeLog(): ChangeLogItem[] {
         const changeLog: ChangeLogItem[] = [];
 
+        changeLog.push({ kind: ChangeLogKind.VERSION, detail: { releaseNumber: "2.8.1", releaseDate: "January 2025" } });
+        changeLog.push({
+            kind: ChangeLogKind.INTERNAL,
+            detail: {
+                message: "Security Alert: webpack",
+                id: 50,
+                kind: IssueKind.PR,
+                kudos: "dependabot"
+            }
+        });
+        changeLog.push({
+            kind: ChangeLogKind.INTERNAL,
+            detail: {
+                message: "Security Alert: braces",
+                id: 49,
+                kind: IssueKind.PR,
+                kudos: "dependabot"
+            }
+        });
+
         changeLog.push({ kind: ChangeLogKind.VERSION, detail: { releaseNumber: "2.8.0", releaseDate: "March 2024" } });
         changeLog.push({
             kind: ChangeLogKind.NEW,
@@ -91,41 +111,6 @@ export class RtfContentProvider implements ContentProvider {
                 id: 39,
                 kind: IssueKind.PR,
                 kudos: "dependabot"
-            }
-        });
-
-        changeLog.push({ kind: ChangeLogKind.VERSION, detail: { releaseNumber: "2.6.0", releaseDate: "September 2022" } });
-        changeLog.push({
-            kind: ChangeLogKind.INTERNAL,
-            detail: {
-                message: "Package Cleanup",
-                id: 31,
-                kind: IssueKind.Issue
-            }
-        });
-        changeLog.push({
-            kind: ChangeLogKind.INTERNAL,
-            detail: {
-                message: "Security Alert: terser",
-                id: 32,
-                kind: IssueKind.PR,
-                kudos: "dependabot"
-            }
-        });
-
-        changeLog.push({ kind: ChangeLogKind.VERSION, detail: { releaseNumber: "2.5.1", releaseDate: "June 2022" } });
-        changeLog.push({
-            kind: ChangeLogKind.INTERNAL,
-            detail: "Add <b>GitHub Sponsors</b> support"
-        });
-
-        changeLog.push({ kind: ChangeLogKind.VERSION, detail: { releaseNumber: "2.5.0", releaseDate: "March 2022" } });
-        changeLog.push({
-            kind: ChangeLogKind.INTERNAL,
-            detail: {
-            message: "Add Web support",
-                id: 20,
-                kind: IssueKind.Issue
             }
         });
 
