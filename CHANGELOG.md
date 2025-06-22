@@ -1,3 +1,7 @@
+## [2.8.2] - 2025-06-22
+### Internal
+- Security Alert: serialize-javascript and mocha (dependabot [PR #51](https://github.com/alefragnani/vscode-language-rtf/pull/51))
+
 ## [2.8.1] - 2025-02-03
 ### Internal
 - Security Alert: webpack (dependabot [PR #50](https://github.com/alefragnani/vscode-language-rtf/pull/50))

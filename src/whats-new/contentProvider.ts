@@ -15,6 +15,17 @@ export class RtfContentProvider implements ContentProvider {
     public provideChangeLog(): ChangeLogItem[] {
         const changeLog: ChangeLogItem[] = [];
 
+        changeLog.push({ kind: ChangeLogKind.VERSION, detail: { releaseNumber: "2.8.2", releaseDate: "June 2025" } });
+        changeLog.push({
+            kind: ChangeLogKind.INTERNAL,
+            detail: {
+                message: "Security Alert: serialize-javascript and mocha",
+                id: 51,
+                kind: IssueKind.PR,
+                kudos: "dependabot"
+            }
+        });
+
         changeLog.push({ kind: ChangeLogKind.VERSION, detail: { releaseNumber: "2.8.1", releaseDate: "January 2025" } });
         changeLog.push({
             kind: ChangeLogKind.INTERNAL,
