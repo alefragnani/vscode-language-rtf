@@ -40,7 +40,7 @@
             <section class="hero">
                 <div class="hero-copy">
                     <p class="eyebrow">Visual Studio Code Extension</p>
-                    <h1>Rich Text Format, clearly highlighted.</h1>
+                    <h1>RTF, clearly highlighted.</h1>
                     <p class="hero-text">
                         RTF adds language support for Rich Text Format files in VS Code, with syntax highlighting
                         and bracket matching based on the RTF specification, so control words and groups are easy to read.
@@ -90,20 +90,10 @@
                         <h3>Syntax Highlighting</h3>
                         <p>Color RTF control words, groups, and text based on the official specification.</p>
                     </a>
-                    <a class="feature-card" href="#bracket-matching">
-                        <span class="feature-number">02</span>
-                        <h3>Bracket Matching</h3>
-                        <p>Jump between matching <code>{</code> and <code>}</code> group delimiters as you edit.</p>
-                    </a>
                     <a class="feature-card" href="#remote-development-ready">
-                        <span class="feature-number">03</span>
+                        <span class="feature-number">02</span>
                         <h3>Remote Development Ready</h3>
                         <p>Use RTF locally, remotely, in the browser, or in untrusted workspaces.</p>
-                    </a>
-                    <a class="feature-card" href="#whats-new-command">
-                        <span class="feature-number">04</span>
-                        <h3>What's New Command</h3>
-                        <p>Check the latest release notes right from the command palette.</p>
                     </a>
                 </div>
             </section>
@@ -122,45 +112,12 @@
                             <h3>Language registration</h3>
                             <p>Files with the <code>.rtf</code> extension are automatically associated with the RTF language.</p>
                         </div>
-                        <div>
-                            <h3>Grammar-based highlighting</h3>
-                            <p>A dedicated TextMate grammar (<code>rtf.tmLanguage</code>) drives coloring based on the document structure.</p>
-                        </div>
                     </div>
                 </div>
                 <div class="spotlight-visual stack">
                     <figure class="media-card">
                         <img src="images/vscode-rtf-syntax.png" alt="RTF file with syntax highlighting">
                     </figure>
-                </div>
-            </section>
-
-            <section class="spotlight" id="bracket-matching">
-                <div class="spotlight-copy">
-                    <p class="eyebrow">Bracket matching</p>
-                    <h2>Keep track of RTF groups as documents grow.</h2>
-                    <p>
-                        RTF documents are built from nested <code>{ }</code> groups. The <code>rtf.configuration.json</code>
-                        language configuration teaches VS Code to match and highlight these pairs, making deeply nested
-                        control word groups easier to navigate.
-                    </p>
-                    <div class="command-list">
-                        <article>
-                            <h3>Editor support</h3>
-                            <ul>
-                                <li>Matching brace highlighting for <code>{</code> and <code>}</code></li>
-                                <li>Jump-to-matching-bracket navigation</li>
-                                <li>Consistent behavior across nested groups</li>
-                            </ul>
-                        </article>
-                    </div>
-                </div>
-                <div class="spotlight-visual">
-                    <pre class="json-example"><code><span class="json-punctuation">{</span>
-  <span class="json-key">"brackets"</span><span class="json-punctuation">:</span> <span class="json-punctuation">[</span>
-    <span class="json-punctuation">[</span><span class="json-string">"{"</span><span class="json-punctuation">,</span> <span class="json-string">"}"</span><span class="json-punctuation">]</span>
-  <span class="json-punctuation">]</span>
-<span class="json-punctuation">}</span></code></pre>
                 </div>
             </section>
 
@@ -205,22 +162,6 @@
                 </div>
             </section>
 
-            <section class="sidebar-section" id="whats-new-command">
-                <div class="spotlight-copy">
-                    <p class="eyebrow">What's New command</p>
-                    <h2>See what changed without leaving the editor.</h2>
-                    <p>
-                        RTF contributes a <strong>What's New</strong> command to the command palette, so you can review
-                        the latest release notes and past changes at any time.
-                    </p>
-                </div>
-                <div class="sidebar-grid">
-                    <figure class="media-card">
-                        <img src="images/vscode-rtf-logo-readme.png" alt="RTF logo">
-                    </figure>
-                </div>
-            </section>
-
             <section class="feature-index faq-section" id="faq">
                 <div class="section-heading">
                     <p class="eyebrow">FAQ</p>
@@ -242,10 +183,6 @@
                     <details>
                         <summary>Does RTF work with Remote Development and Codespaces?</summary>
                         <p>Yes! RTF supports Remote Development (SSH, Containers, WSL), Workspace Trust, and Virtual Workspaces, so highlighting works consistently wherever your files live.</p>
-                    </details>
-                    <details>
-                        <summary>How do I see what changed in the latest release?</summary>
-                        <p>Run the <strong>What's New</strong> command from the command palette to review the latest release notes directly inside VS Code.</p>
                     </details>
                     <details>
                         <summary>Does it work on VS Code forks like Cursor, Windsurf, and Antigravity?</summary>
