@@ -24,6 +24,20 @@ html {
     scroll-behavior: smooth;
 }
 
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+    }
+}
+
 body {
     margin: 0;
     font-family: "Avenir Next", "Segoe UI", "Helvetica Neue", sans-serif;
@@ -711,8 +725,9 @@ code {
     }
 
     .site-footer {
+        display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
 }
 
