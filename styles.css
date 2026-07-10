@@ -510,6 +510,11 @@ code {
     align-items: center;
 }
 
+.spotlight-copy,
+.spotlight-visual {
+    min-width: 0;
+}
+
 .spotlight-reverse {
     grid-template-columns: minmax(300px, 0.92fr) minmax(0, 1fr);
 }
@@ -549,11 +554,16 @@ code {
 
 .json-example {
     margin: 0.9rem 0 0;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
     padding: 0.9rem 1rem;
     border-radius: 14px;
     background: #101826;
     color: #dde6f7;
     overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
 }
 
 .json-example code {
@@ -562,6 +572,8 @@ code {
     font-size: 0.83rem;
     line-height: 1.55;
     white-space: pre;
+    width: max-content;
+    min-width: 100%;
     background: transparent;
     border-radius: 0;
     padding: 0;
