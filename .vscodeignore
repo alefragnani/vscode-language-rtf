@@ -16,4 +16,13 @@ webpack.config.js
 **/.git
 **/.gitmodules
 .devcontainer/
-docs
+
+# agents
+AGENTS.md
+
+# docs reference material
+docs/Word2007RTFSpec9.docx
+
+# gh-pages
+docs/index.html
+docs/styles.css

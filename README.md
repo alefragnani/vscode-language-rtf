@@ -43,7 +43,7 @@ It adds support for the **RTF (Rich Text Format)** language, and provides:
 * Syntax highlighting
 * Bracket matching
 
-![syntax](images/vscode-rtf-syntax.png)
+![syntax](docs/images/vscode-rtf-syntax.png)
 
 ## Compatibility
 
