@@ -1,3 +1,22 @@
+## [2.8.3] - 2026-10-15
+### Internal
+- Security Alert: brace-expansion (dependabot [PR #81](https://github.com/alefragnani/vscode-language-rtf/pull/81))
+- Security Alert: serialize-javascript (dependabot [PR #80](https://github.com/alefragnani/vscode-language-rtf/pull/80))
+- Security Alert: minimatch, @typescript-eslint/eslint-plugin and @typescript-eslint/parser (dependabot [PR #79](https://github.com/alefragnani/vscode-language-rtf/pull/79))
+- Security Alert: serialize-javascript, terser-webpack-plugin and mocha (dependabot [PR #78](https://github.com/alefragnani/vscode-language-rtf/pull/78))
+- Security Alert: glob (dependabot [PR #77](https://github.com/alefragnani/vscode-language-rtf/pull/77))
+- Security Alert: js-yaml (dependabot [PR #76](https://github.com/alefragnani/vscode-language-rtf/pull/76))
+- Security Alert: brace-expansion (dependabot [PR #75](https://github.com/alefragnani/vscode-language-rtf/pull/75))
+- Security Alert: browserslist (dependabot [PR #74](https://github.com/alefragnani/vscode-language-rtf/pull/74))
+- Security Alert: fast-uri (dependabot [PR #73](https://github.com/alefragnani/vscode-language-rtf/pull/73))
+- Security Alert: js-yaml (dependabot [PR #68](https://github.com/alefragnani/vscode-language-rtf/pull/68))
+- Security Alert: fast-uri (dependabot [PR #67](https://github.com/alefragnani/vscode-language-rtf/pull/67))
+- Security Alert: picomatch (dependabot [PR #60](https://github.com/alefragnani/vscode-language-rtf/pull/60))
+- Security Alert: flatted (dependabot [PR #59](https://github.com/alefragnani/vscode-language-rtf/pull/59))
+- Security Alert: minimatch, @typescript-eslint/eslint-plugin and @typescript-eslint/parser (dependabot [PR #56](https://github.com/alefragnani/vscode-language-rtf/pull/56))
+- Security Alert: js-yaml and @eslint/eslintrc (dependabot [PR #54](https://github.com/alefragnani/vscode-language-rtf/pull/54))
+- Bump `vscode-whats-new` to March 2026 release (Issue [#61](https://github.com/alefragnani/vscode-language-rtf/issues/61))
+
 ## [2.8.2] - 2025-06-22
 ### Internal
 - Security Alert: serialize-javascript and mocha (dependabot [PR #51](https://github.com/alefragnani/vscode-language-rtf/pull/51))
